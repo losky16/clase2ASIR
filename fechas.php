@@ -18,10 +18,68 @@ echo "Hoy es:".date("l")."<br>";
 echo "Dime la fecha actual:".date("Y/M/g")."<br>";
 echo "Dime la fecha actual:".date("Y/n/j")."<br>";
 
-$hora = date("H:i:s");
-echo "Dime la hora actual:".$hora."<br>";
+$hora = date("H");
 
-    ?>
-<a href="http://localhost/ASIR/fechas.php">
+echo "Ejercicio ejemplo if"."<br>"."<br>"."<br>";
+
+if($hora<"15"){
+    echo "Lo siento, sigo en clases."."<br>";
+    echo "Hora: ".$hora;
+
+}else{
+    echo "Estoy en mi casa"."<br>";
+
+
+}
+
+echo "<br>"."<br>"."Ejercicio ejemplo if-else"."<br>"."<br>";
+
+
+
+$segundos = date("s");
+
+if($segundos<"10"){
+    echo "Primeros 10 segundos"."<br>";
+    echo "Segundos: ".$segundos;
+}elseif($segundos>"50"){
+    echo "Ultimos 10 segundos"."<br>";
+    echo "Segundos: ".$segundos;
+}else{
+    echo "Segundos intermedios"."<br>";
+    echo "Segundos: ".$segundos;
+}
+
+echo "<br>"."<br>"."Ejercicio ejemplo switch"."<br>"."<br>";
+
+
+$colores ="Naranja";
+
+switch ($colores) {
+    case 'Rojo':
+        echo "La sangre es de color: ".$colores."<br>";
+        break;
+
+    case 'Verde':
+        echo "La hierba es de color: ".$colores."<br>";
+        break;
+    case 'Amarillo':
+        echo "El Sol es de color: ".$colores."<br>";
+        break;
+     case 'Azul':
+        echo "El mar es de color: ".$colores."<br>";
+        break;
+    default:
+        echo "El color: ".$colores." no está registrado en la base de datos"."<br>";
+        break;
+}
+
+
+#EJERCICIO: Realizar un script que que dependiendo del dia que sea me muestre el horario de asignaturas del dia actual y dependiendo de la hora me diga la asignatura en la que estoy. Si es fin de semana me indique el dia del fin de semana.
+?>
+
+
+<a href="inicio.html">Volver a la página principal</a>
+
+
 </body>
 </html>
