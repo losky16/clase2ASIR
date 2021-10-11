@@ -17,14 +17,26 @@
 
     switch ($fecha) {
             case 'Monday':
-            echo "Lunes";
+                
+            echo "Lunes"."<br>"."<br>";
+            echo "Son las $hora y tenemos:"."<br>"."<br>";
+            echo "Aplicaciones web"."<br>";
+            echo "Aplicaciones web"."<br>";
+            echo "Aplicaciones web"."<br>"."<br>";
+            echo "Y despues tenemos"."<br>"."<br>";
+            echo "Servicio en red"."<br>";
+            echo "Servicio en red"."<br>";
+            echo "Servicio en red"."<br>";
+           
             if($hora==8) {
-                echo "Estoy en implantacion";}
+                echo "Estoy en Aplicaciones web"."<br>"."<br>";}
                 elseif ($hora==9) {
-                    echo "Sigo en implantacion";
-                }
+                    echo "Estoy en aplicaciones web";
+                    }
+                    
                 elseif ($hora==10) {
-                    echo "Sigo en implancaion";
+                    echo "Estoy en aplicaciones web"."<br>";
+                   
                 }
                 elseif ($hora==11) {
                     echo "Estoy en el recreo";
@@ -49,6 +61,15 @@
             break;
             case 'Tuesday':
             echo "Martes";
+            echo "Son las $hora y tenemos:"."<br>"."<br>";
+            echo "Administacion de sistema"."<br>";
+            echo "Administacion de sistema"."<br>";
+            echo "Administacion de sistema"."<br>";
+            echo "Y despues tenemos"."<br>"."<br>";
+
+            echo "Seguridad"."<br>";
+            echo "Empresa"."<br>";
+            echo "Empresa"."<br>";
 
             if($hora==8) {
 
@@ -97,6 +118,15 @@
             break;
             case 'Wednesday':
             echo "Miercoles";
+            echo "Son las $hora y tenemos:"."<br>"."<br>";
+            echo "Administracion de sistema"."<br>";
+            echo "Administracion de sistema"."<br>";
+            echo "Administracion de sistema"."<br>";
+            echo "Y despues tenemos"."<br>"."<br>";
+
+            echo "Servicio en red"."<br>";
+            echo "Servicio en red"."<br>";
+            echo "Servicio en red"."<br>";
 
             if (hora==8) {
                 echo "Estoy en clase de Administracion de sistema";
@@ -140,6 +170,17 @@
             break;
             case 'Thursday':
             echo "Jueves";
+            echo "Son las $hora y tenemos:"."<br>"."<br>";
+            echo "Base de datos"."<br>";
+            echo "Base de datos"."<br>";
+            echo "Base de datos"."<br>";
+            echo "Y despues tenemos"."<br>"."<br>";
+
+            echo "Seguridad"."<br>";
+            echo "Ingles"."<br>";
+            echo "Ingles"."<br>";
+
+        
 
                 if ($hora==8) {
                     echo "Estoy en  clase de bases de datos";
@@ -181,6 +222,17 @@
             break;
             case 'Friday':
             echo "Viernes";
+            echo "Son las $hora y tenemos:"."<br>"."<br>";
+            echo "Ingles"."<br>";
+            echo "Seguridad"."<br>";
+            echo "Seguridad"."<br>";
+            echo "Y despues tenemos"."<br>"."<br>";
+
+            echo "Aplicaciones web"."<br>";
+            echo "Empresa"."<br>";
+            echo "Empresa"."<br>";
+
+            
 
            if ($hora==8) {
                echo "Estoy en clase de Ingles";
