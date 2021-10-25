@@ -1,50 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-
-Button {
-  font-family: verdana;
-  font-size: 20px;
-  border-left-style: solid
-}
-        </style>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-<form>
-
-
-<form  method="POST">   >
-        <fieldset><br>
-            <legend>Calculadora</legend>
-        <label >Numero1</label>
-        <input type="text"><br>
-        <label>Numero2</label>
-        <input type="text" ><br><br><br>
-        <label>operaciones:</label><br><br><br> 
-       
-        <input type="Button" name="" value=" + " onclick="calcula('+')"><br> 
-        <input type="Button" name="" value=" - " onclick="calcula('-')"><br>  
-        <input type="Button" name="" value=" X " onclick="calcula('*')"><br>  
-        <input type="Button" name="" value=" / " onclick="calcula('/')"><br>
-
-        <input type="Button" name="raiz cuadrada" value="raiz cuadrada"><br><br><br>   
-        <input type="Button" name="" value=" % " onclick="calcula('/')"><br><br><br> 
-        <input type="Button" name="" value="resolver"><br><br><br>
-        <h3>Resultado</h3><br><br>
-
-
-</form>
 
 <?php
-
-$num1=5;
-$num2=2;
+#recogida de datos
+$num1=$_GET["operando1"];
+$num2=$_GET["operando2"];
+$selector=$_GET["operador"];
 
 function suma($num1,$num2){
 
@@ -74,10 +33,16 @@ function division($num1,$num2){
 
     print "El resultado es ".$res."<br>";
 
+
+
+}
+function resto($num1,$num2){
+    $res= $num1 % $num2;
+    echo "el resultado es".$res."<br>";
 }
 function raizcuadrada($num1){
 
-    $res= sqrt($num1,);
+    $res= sqrt($num1);
 
     print "El resultado es ".$res."<br>";
 
@@ -104,7 +69,8 @@ function elevar($num1,$num2){
 
    }
 
-   function fivo($fin){
+#Fibonacci
+   function fibonacci($fin){
        $var1=0;
        $var2=1;
        $var3=0;
@@ -121,17 +87,50 @@ function elevar($num1,$num2){
             $ini++;
             echo $var3."<br>";
             }
+
+            
     
 
 
 
    }
-    fivo(5);
+    
+
+    switch ($selector) {
+        case 'suma':
+            suma($num1,$num2);
+            break;
+
+            case 'resta':
+                resta($num1,$num2);
+                break;
+                case 'multiplicacion':
+                    multiplicacion($num1,$num2);
+                    break;
+            case 'division':
+            division($num1,$num2);
+            break;
+            case 'resto':
+            resto($num1,$num2);
+            break;
+
+            case 'raiz cuadrada':
+                raizcuadrada($num1);
+                break;
+                
+                    case 'exponente':
+                        elevar ($num1,$num2);
+                        break;
+                        case 'fibonacci':
+                            fibonacci($num1);
+                            break;
+            default:
+            echo "operacion incorrecta";
+            break;
+    }
 
     
 
 ?>
 
 
-</body>
-</html>
