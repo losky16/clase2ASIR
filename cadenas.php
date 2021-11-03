@@ -21,18 +21,29 @@ function Cuentas_palabras($text1){
 }
  function Invierte_el_texto($text1){
     $res=strrev($text1);
-    print "el resultado es".$res."<br>";
+    print "el resultado es".$res."<br>"."<br>";
 
  }
 function Busqueda($text1,$text2){
+    
     $res=strpos($text1,$text2);
-    print "el resultado es".$res."<br>";
+    if ($res==True) {
+        print "La palabra se encuentra en  el texto";
+    }
+
+        else {
+            print "La palabra no esta en el texto";
+        }
+    
+    
+    
+    }
+    
 
 
-}
 function Remplazar_palabra($text3,$text2,$text1){
     $res=str_replace($text3,$text2,$text1);
-    print "el resultado es".$res."<br>";
+    print "el nuevo orden es".$res."<br>";
 
 
 }
@@ -50,10 +61,10 @@ function Remplazar_palabra($text3,$text2,$text1){
                 Invierte_el_texto($text1,$text2,$text3);
                 break;   
             case  'Busqueda':
-                Busqueda($text1);
+                Busqueda($text1,$text2);
                 break;
             case 'Remplazar_palabra':
-                Remplazar_palabra($text1,$text2,$text3);
+                Remplazar_palabra($text3,$text2,$text1);
                 break;
 
            
