@@ -1,8 +1,141 @@
 <?php
+for ($inicio=0; $inicio < 5; $inicio++) {
+
+
+
+   
+
+    for ($inicio2=0; $inicio2 < 5; $inicio2++) {
+
+        print "Vamos por la interacción inicio: ".$inicio."<br>";
+
+        print "Vamos por la interacción inicio2: ".$inicio2."<br>";
+
+    }
 
 
 
 
+}
+
+//Bucles anidados de forma dependiente
+for ($varexterior=0; $varexterior < 5; $varexterior++) {
+    print "<br>Muestro variable exterior: ".$varexterior."<br>";
+
+for ($varinterior=0; $varinterior < $varexterior; $varinterior++) {
+
+    print "<br>Muestro variable interior: ".$varinterior."<br>";
+
+
+
+
+}
+
+}
+
+#ARRAYS
+print "<br><h2>ARRAY'ESTADAR'</h2>"."<br>";
+
+#Forma 1:
+$numeroP=array(2,4,6,8,10);
+
+   print_r($numeroP);
+   echo "<br>";
+   print "Muestren lo que hay en la posicion3:".$numeroP[3]."<br>";
+$cuentaNumerosP=count($numeroP);
+print "Valor de Cuenta ARRAy:".$cuentaNumerosP."<br>"."<br>";
+
+  for ($i=0; $i < $cuentaNumerosP; $i++) { 
+    print "Muestren lo que hay en la posicion:".$i.":".$numeroP[$i]."<br>";
+   }
+
+echo "<br>";
+#Forma 2:
+$numeroI=[1,3,5,7,9];
+
+print_r($numeroI);
+echo "<br>";
+
+
+#ARRAY ASOCIATIVO
+print "<br><h2>ARRAY'ASOCIATIVO'</h2>"."<br>";
+
+$potencias2=[1=>2, 2=>4, 3=>8];
+$capitales=array("Andalucia"=>"Sevila","Madrid"=>"Madrid","Aragon"=>"Zaragoza");
+print_r($capitales);
+print_r($potencias2);
+echo "<br>";
+
+//Añadir elementos a un array
+
+$capitales["Cataluña"]="Barcalona";
+   print_r($capitales);
+   echo "<br>";
+
+   $capitales["Andalucia"]="Sevilla";
+   print_r($capitales);
+   echo "<br>";
+$cuentaLetras=strlen($capitales["Andalucia"]);
+   echo $cuentaLetras;
+
+   $notasAsignaturasMigue=["LM"=>0,
+   "FOL"=>10,
+   "PAR"=>9,
+   "ISO"=>0,
+   "FH"=>0,
+   "BD"=>4];
+
+   print_r($notasAsignaturasMigue);
+   echo "<br>";
+
+   #UNION DE ARRAYS
+
+   $coche1=array("Seat","Renault","Dacia");
+   $coche2=["BMV,","Audi"];
+   print_r($coche1);
+   echo "<br>";
+
+   print_r($coche2);
+   echo "<br>Union de arrays";
+
+   $union2con1=$coche1+$coche2;
+   print_r($union2con1);
+   echo "<br>";
+
+   $union2con1=$coche2+$coche1;
+   print_r($union2con1);
+   echo "<br>";
+
+   //Borrar un elemento
+
+   $coche3=array("Seat","Renault","Dacia","BMV","Audi");
+
+   print_r($coche3);
+   echo "<br>";
+   unset($coche3[1]);
+   print_r($coche3);
+   echo "<br>";
+
+   print $coche3[]="Ferrari";
+   print_r($coche3);
+   echo "<br>";
+
+//Copiar Matrices
+
+$copiarCapitales=$capitales;
+$copiarCapitales["Andalucia"]="Cordoba";
+print_r($copiarCapitales);
+echo "<br>";
+
+
+
+
+
+
+
+
+/*
+#Array Normales
 $numeros=array(8, 3, 7 , 1);
 
 $suspensos=array("Miguel", "kerry");
@@ -35,4 +168,5 @@ $alumnos=array("Nombre"=>"Miguel",
                 "estaAprobado"=>false);
     
     echo $alumnos["Edad"].$alumnos["Apellido"];
+    */
 ?>
