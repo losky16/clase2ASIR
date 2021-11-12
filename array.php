@@ -127,6 +127,30 @@ $copiarCapitales["Andalucia"]="Cordoba";
 print_r($copiarCapitales);
 echo "<br>";
 
+$colores2=["Verde", "Azul", "Amarillo","Rojo","Blanco"];
+$colores1=["Verde", "Azul", "Amarillo","Rojo"];
+
+echo "<br>";
+
+$resultadoDirencia=array_diff($colores2,$colores1);
+$resultadoUnion=array_merge($colores2,$colores1);
+$resultadoIntersecion=array_intersect($colores2,$colores1);
+
+
+array_push($colores2,"Purpura","Marron","Celeste");
+
+sort($colores2,SORT_NATURAL);
+print_r ($resultadoDirencia);
+echo "<br>";
+print_r ($resultadoUnion);
+echo "<br>";
+print_r ($resultadoIntersecion);
+echo "<br>";
+print_r ($colores2);
+
+//print_r ($colores2);
+
+
 
 
 
