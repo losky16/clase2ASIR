@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Funciones trigonométricas.</title> 
+<style type="text/css">
+* { font-family: arial; margin: 0; padding: 0 }
+#izda { width: 20%; float: left; background-color: #e3f2ff }
+#dcha { width: 80%; float: left }
+h1 { padding: 0.3em ; text-align: center; }
+h2 { padding: 0.2em 3em; }
+h4, p { padding: 0.2em 1em; }
+</style>
+</head>
+<body>
+<h1>Funciones trigonométricas:</h1>
+
+<form action="ejemploseno.php" method="post">
+<h4>Elige un numero:</h4>
+<label> <input type="text" name="num" maxlength="10" size="10" /></label>
+<h4>Operar en: </h4>
+<label><input type="radio" name="modo" value="gr"  /> Grados.</label>
+<label><input type="radio" name="modo" value="rad" /> Radianes.</label>
+
+
+<select name="operadores">
+
+    <option value="seno">seno</option>
+    <option value="coseno">coseno</option>
+    <option value="tangente">tangente</option>
+</select>
+
+
+<label><input type="submit" value="Ver resultados" /></label>
+</form>
+</div>
+

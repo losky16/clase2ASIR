@@ -65,9 +65,13 @@ function elevar($num1,$num2){
 
     print "El resultado es ".$res."<br>";
 
+    
+    
+}
+
    
 
-   }
+   
 
 #Fibonacci
    function fibonacci($fin){
@@ -124,10 +128,15 @@ function elevar($num1,$num2){
                         case 'fibonacci':
                             fibonacci($num1);
                             break;
+                        case 'seno':
+                            seno($num1);
+                            break;
+                        
             default:
             echo "operacion incorrecta";
             break;
     }
+    
 
     
 
