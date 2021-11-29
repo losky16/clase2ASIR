@@ -7,19 +7,19 @@ $selector=$_GET["cadenas"];
 
 function Convertir_Texto($text1){
 
-    $res=str_word_count($text1);
+    $res=strtoupper($text1);
 
     print "el resultado es ".$res."<br>";
 }
 
 function Desordenar_Texto($text1){
-    $res=strrev($text1);
+    $res=str_shuffle($text1);
     print "el resultado es".$res."<br>"."<br>";
     
 }
  function ConvertirCadena($text1){
-    $res=strrev($text1);
-    print "el resultado es".$res."<br>"."<br>";
+    $res=str_split($text1);
+    print_r ($res);
 
  }
 function ContarCaracteres($text1){
@@ -52,7 +52,7 @@ function Remplazar_palabra($text3,$text2,$text1){
                 Desordenar_Texto($text1);
                 break;
             case 'ConvertirCadena':
-                ConvertirCadena($text1,$text2,$text3);
+                ConvertirCadena($text1);
                 break;   
             case  'Contar':
                 ContarCaracteres($text1);
