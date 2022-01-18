@@ -1,6 +1,8 @@
 
 <?php
 include 'calculdora.php';
+
+
 #recogida de datos
 $num1=$_GET["operando1"];
 $num2=$_GET["operando2"];
