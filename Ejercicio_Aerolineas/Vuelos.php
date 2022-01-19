@@ -7,8 +7,8 @@ $vuelo3=$_GET["avion"];
 
 
 
-$Fabricante=VueloFabricante=>["Vueling-AE12"];
+$Fabricante=VueloFabricante;
 
-
+echo $Fabricante;
 
 ?>
