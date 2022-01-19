@@ -5,7 +5,9 @@ include ("Arrays.php");
 $vuelo3=$_GET["avion"];
 
 
-$F=$VueloFabricante=>
+
+
+$Fabricante=VueloFabricante=>["Vueling-AE12"];
 
 
 

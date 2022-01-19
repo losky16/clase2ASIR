@@ -42,25 +42,32 @@ $VueloFabricante=array(
 
 
 );
+
 print_r($VueloFabricante);
 echo "<br/>";
 echo "<br/>";
 echo "<br/>";
+foreach ($VueloFabricante as $fabricacion => $fabri) {
+    echo "Compañia ".$fabricacion  ." su aerolinea es ".$fabri."<br/>";
+
+}
+
+
 
 $VueloDuracionViaje=array(
 
     array("Nombre"=>"Vueling-AE12","Tiempo"=>"120 minutos"),
-    array("Volotea-EA21"=>"100 minutos"),
-    array("Iberia-WE44"=>"340 minutos"),
-    array("Ryanair-EW44"=>"45 minutos"),
-    array("Vueling-ZK87"=>"600 minutos"),
-    array("Volotea-UA21"=>"65 minutos"),
-    array("Iberia-WH44"=>"90 minutos"),
-    array("Ryanair-ELOO"=>"50 minutos"),
-    array("Vueling-AE12"=>"115 minutos"),
-    array("Volotea-EA21"=>"100 minutos"),
-    array("Iberia-WE44"=>"85 minutos"),
-    array("Ryanair-EW44"=>"360 minutos")
+    array("Nombre"=>"Volotea-EA21","Tiempo"=>"100 minutos"),
+    array("Nombre"=>"Iberia-WE44","Tiempo"=>"340 minutos"),
+    array("Nombre"=>"Ryanair-EW44","Tiempo"=>"45 minutos"),
+    array("Nombre"=>"Vueling-ZK87","Tiempo"=>"600 minutos"),
+    array("Nombre"=>"Volotea-UA21","Tiempo"=>"65 minutos"),
+    array("Tiempo"=>"Iberia-WH44","Tiempo"=>"90 minutos"),
+    array("Nomnre"=>"Ryanair-ELOO","Tiempo"=>"50 minutos"),
+    array("Nomnre"=>"Vueling-AE12","Tiempo"=>"115 minutos"),
+    array("Nombre"=>"Volotea-EA21","Tiempo"=>"100 minutos"),
+    array("Nombre"=>"Iberia-WE44","Tiempo"=>"85 minutos"),
+    array("Nombre"=>"Ryanair-EW44","Tiempo"=>"360 minutos")
 
 
 );
@@ -93,12 +100,9 @@ print_r($VueloNumeroPasajeros);
 echo "<br/>";
 
 
-function duracion()
 
 
-foreach ($VueloDuracionViaje as $Duracion ) {
-    echo "Aerolinea: ".$Duracion["Nombre"].": ".$Duracion["Tiempo"]."<br>";
-}
+
 
 
 
