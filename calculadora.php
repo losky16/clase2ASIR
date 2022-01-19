@@ -1,6 +1,6 @@
 
 <?php
-include 'calculdora.php';
+include 'funciones.php';
 
 
 #recogida de datos

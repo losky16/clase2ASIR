@@ -26,14 +26,14 @@ echo "<br/>";
 
 $VueloFabricante=array(
 
-    array("Vueling-AE12"=>"Boering"),
-    array("Volotea-EA21"=>"Airbus"),
-    array("Iberia-WE44"=>"Airbus"),
-    array("Ryanair-EW44"=>"Boering"),
-    array("Vueling-ZK87"=>"Airbus"),
-    array("Volotea-UA21"=>"Boering"),
-    array("Iberia-WH44"=>"Boering"),
-    array("Ryanair-ELOO"=>"Airbus")
+    "Vueling-AE12"=>"Boering",
+    "Volotea-EA21"=>"Airbus",
+    "Iberia-WE44"=>"Airbus",
+    "Ryanair-EW44"=>"Boering",
+    "Vueling-ZK87"=>"Airbus",
+    "Volotea-UA21"=>"Boering",
+    "Iberia-WH44"=>"Boering",
+    "Ryanair-ELOO"=>"Airbus"
     
 
 
@@ -93,7 +93,7 @@ print_r($VueloNumeroPasajeros);
 echo "<br/>";
 
 
-function duracion($VueloDuracionViaje)
+function duracion()
 
 
 foreach ($VueloDuracionViaje as $Duracion ) {
