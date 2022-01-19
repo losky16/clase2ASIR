@@ -3,7 +3,7 @@
 $vueloDestino=array(
 
     array("Vueling-AE12"=>"Milan"),
-    array("Volotea-EA21"=>"Roma"),
+    array("Volotea-EA21"=>"Roma"),        
     array("Iberia-WE44"=>"Estabul"),
     array("Ryanair-EW44"=>"Madrid"),
     array("Vueling-ZK87"=>"Lima"),
@@ -49,7 +49,7 @@ echo "<br/>";
 
 $VueloDuracionViaje=array(
 
-    array("Vueling-AE12"=>"120 minutos"),
+    array("Nombre"=>"Vueling-AE12","Tiempo"=>"120 minutos"),
     array("Volotea-EA21"=>"100 minutos"),
     array("Iberia-WE44"=>"340 minutos"),
     array("Ryanair-EW44"=>"45 minutos"),
@@ -93,8 +93,12 @@ print_r($VueloNumeroPasajeros);
 echo "<br/>";
 
 
+function duracion($VueloDuracionViaje)
 
 
+foreach ($VueloDuracionViaje as $Duracion ) {
+    echo "Aerolinea: ".$Duracion["Nombre"].": ".$Duracion["Tiempo"]."<br>";
+}
 
 
 
