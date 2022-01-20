@@ -17,7 +17,7 @@ $vueloDestino=array(
 
 
 );
-print_r($vueloDestino);
+
 echo "<br/>";
 echo "<br/>";
 echo "<br/>";
@@ -58,10 +58,7 @@ switch ($vuelo3) {
         break;
 }
 
-foreach ($VueloFabricante as $fabricacion => $fabri) {
-    echo "Compañia ".$fabricacion  ." su aerolinea es ".$fabri."<br/>";
 
-}
 
 
 
