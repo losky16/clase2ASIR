@@ -43,10 +43,21 @@ $VueloFabricante=array(
 
 );
 
-print_r($VueloFabricante);
+
 echo "<br/>";
 echo "<br/>";
 echo "<br/>";
+
+switch ($vuelo3) {
+    case 'Vueling-AE12':
+        echo "asasas";
+        break;
+    
+    default:
+        # code...
+        break;
+}
+
 foreach ($VueloFabricante as $fabricacion => $fabri) {
     echo "Compañia ".$fabricacion  ." su aerolinea es ".$fabri."<br/>";
 
@@ -71,7 +82,7 @@ $VueloDuracionViaje=array(
 
 
 );
-print_r($VueloDuracionViaje);
+
 echo "<br/>";
 echo "<br/>";
 echo "<br/>";
@@ -96,7 +107,7 @@ $VueloNumeroPasajeros=array(
 
 );
 
-print_r($VueloNumeroPasajeros);
+
 echo "<br/>";
 
 
