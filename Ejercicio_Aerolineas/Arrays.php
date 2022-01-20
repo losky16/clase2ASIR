@@ -48,15 +48,8 @@ echo "<br/>";
 echo "<br/>";
 echo "<br/>";
 
-switch ($vuelo3) {
-    case 'Vueling-AE12':
-        echo "asasas";
-        break;
-    
-    default:
-        # code...
-        break;
-}
+
+
 
 
 
