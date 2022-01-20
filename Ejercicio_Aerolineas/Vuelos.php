@@ -30,7 +30,7 @@ switch ($vuelo3) {
 }
 
 
-$vuelo3=$VueloFabricante;
+
 
 
 
