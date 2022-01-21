@@ -7,6 +7,7 @@ $vuelo3=$_GET["avion"];
 switch ($vuelo3) {
     case 'Vueling-AE12':
         echo "Boering";
+        break;
     
     case 'Volotea-EA21':
         echo"Airbus";
@@ -25,7 +26,7 @@ switch ($vuelo3) {
         echo "Airbus";
     
     default:
-        # code...
+        
         break;
 }
 
