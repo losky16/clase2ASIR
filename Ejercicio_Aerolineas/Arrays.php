@@ -2,16 +2,16 @@
 
 $vueloDestino=array(
 
-    array("Vueling-AE12"=>"Milan"),
-    array("Volotea-EA21"=>"Roma"),        
-    array("Iberia-WE44"=>"Estabul"),
-    array("Ryanair-EW44"=>"Madrid"),
-    array("Vueling-ZK87"=>"Lima"),
-    array("Volotea-UA21"=>"Bilbao"),
-    array("Iberia-WH44"=>"Roma"),
-    array("Ryanair-ELOO"=>"Madrid"),
-    array ("Vueling-AE12"=>"Roma"),
-    array("Volotea-EA21"=>"Roma")
+    array("Vuelo"=>"Vueling-AE12","Ciudad"=>"Milan"),
+    array("Vuelo"=>"Volotea-EA21","Ciudad"=>"Roma"),        
+    array("Vuelo"=>"Iberia-WE44","Ciudad"=>"Estabul"),
+    array("Vuelo"=>"Ryanair-EW44","Ciudad"=>"Madrid"),
+    array("Vuelo"=>"Vueling-ZK87","Ciudad"=>"Lima"),
+    array("Vuelo"=>"Volotea-UA21","Ciudad"=>"Bilbao"),
+    array("Vuelo"=>"Iberia-WH44","Ciudad"=>"Roma"),
+    array("Vuelo"=>"Ryanair-ELOO","Ciudad"=>"Madrid"),
+    array ("Vuelo"=>"Vueling-AE12","Ciudad"=>"Roma"),
+    array("Vuelo"=>"Volotea-EA21","Ciudad"=>"Roma")
 
 
 
@@ -81,21 +81,29 @@ echo "<br/>";
 
 $VueloNumeroPasajeros=array(
 
-    array("Vueling-AE12"=>"90 personas"),
-    array("Volotea-EA21"=>"75 personas"),
-    array("Iberia-WE44"=>"100 personas"),
-    array("Ryanair-EW44"=>"60 personas"),
-    array("Vueling-ZK87"=>"77 personas"),
-    array("Volotea-UA21"=>"93 personas"),
-    array("Iberia-WH44"=>"Roma"),
-    array("Ryanair-ELOO"=>"Madrid"),
-    array("Vueling-AE12"=>"Roma"),
-    array("Volotea-EA21"=>"Roma")
-
-
-
-
+    array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"90 personas"),
+    array("Vuelo"=>"Volotea-EA21","Pasajeros"=>"75 personas"),
+    array("Vuelo"=>"Iberia-WE44","Pasajeros"=>"100 personas"),
+    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"60 personas"),
+    array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"77 personas"),
+    array("Vuelo"=>"Volotea-UA21","Pasajeros"=>"93 personas"),
+    array("Vuelo"=>"Iberia-WH44","Pasajeros"=>"86 personas"),
+    array("Vuelo"=>"Ryanair-ELOO","Pasajeros"=>"75 personas"),
+    array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"87 personas"),
+    array("Vuelo"=>"Volotea-EA21","Pasajeros"=>"97 personas"),
+    array("Vuelo"=>"beria-WE44","Pasajeros"=>"81 personas"),
+    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"75 personas"),
+    array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"87 personas"),
+    array("Vuelo"=>"Volotea-UA21","Pasajeros"=>"90 personas"),
+    array("Vuelo"=>"Iberia-WH44","Pasajeros"=>"84 personas"),
+    array("Vuelo"=>"Ryanair-EL00","Pasajeros"=>"67 personas"),
+    array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"86 personas"),
+    array("Vuelo"=>"Volotea -EA21 ","Pasajeros"=>"66 personas"),
+    array("Vuelo"=>"Iberia -WE44","Pasajeros"=>"40 personas"),
+    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"77 personas"),
+    array("Vuelo"=>"Vueling -ZK87","Pasajeros"=>"82 personas"),
 );
+
 
 
 echo "<br/>";
