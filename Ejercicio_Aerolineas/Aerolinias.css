@@ -1,6 +1,9 @@
 body{
-    background-color: rgb(173, 230, 178);
+    background-color: rgb(174, 173, 230);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  
+  h1{
+color: rgb(0, 0, 0);
+
+  }
 
