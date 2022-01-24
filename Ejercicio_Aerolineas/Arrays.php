@@ -26,14 +26,14 @@ echo "<br/>";
 
 $VueloFabricante=array(
 
-    "Vueling-AE12"=>"Boering",
-    "Volotea-EA21"=>"Airbus",
-    "Iberia-WE44"=>"Airbus",
-    "Ryanair-EW44"=>"Boering",
-    "Vueling-ZK87"=>"Airbus",
-    "Volotea-UA21"=>"Boering",
-    "Iberia-WH44"=>"Boering",
-    "Ryanair-ELOO"=>"Airbus"
+    array("Vuelo"=>"Vueling-AE12","Fabricante"=>"Boering"),
+    array("Vuelo"=>"Volotea-EA21","Fabricante"=>"Airbus"),
+    array("Vuelo"=>"Iberia-WE44","Fabricante"=>"Airbus"),
+    array("Vuelo"=>"Ryanair-EW44","FAbricnate"=>"Boering"),
+    array("Vuelo"=>"Vueling-ZK87","Fabricnate"=>"Airbus"),
+    array("Vuelo"=>"Volotea-UA21","Fabricnate"=>"Boering"),
+    array("Veulo"=>"Iberia-WH44","FAbricnate"=>"Boering"),
+    array("Vuelo"=>"Ryanair-ELOO","Fabricante"=>"Airbus")
     
 
 

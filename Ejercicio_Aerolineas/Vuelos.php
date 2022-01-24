@@ -1,10 +1,27 @@
 <?php
 include ("Arrays.php");
+include ("funciones_Vuelo.php");
 #RECOGIDA DE TADOS
 
-$vuelo3=$_GET["avion"];
+$select=$_GET["operador"];
 
-switch ($vuelo3) {
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+/*
+switch ($Fabricante) {
     case 'Vueling-AE12':
         echo "Boering";
         break;
@@ -29,7 +46,7 @@ switch ($vuelo3) {
         
         break;
 }
-
+*/
 
 
 
