@@ -8,11 +8,12 @@ include "Arrays.php";
 
 foreach ($VueloFabricante as  $fabricantito =>$info){
     
-    echo '<strong>'.$fabricantito.'<strong><br>';
 
-    foreach ($info as $Aereo ) {
+    foreach ($info as $infosito  ) {
         
-        echo $Aereo.'<br';
+        echo  "El fabricate del avion es:".$infosito.'<br>';
+
+    
     }
 }
     
