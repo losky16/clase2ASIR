@@ -2,22 +2,19 @@
 
 #Aqui se mostrara las funciones necesaria en el ejercicio de Aerolineas Losquiños
 
-include ("Arrays.php");
+include("Arrays.php");
 
-function Fabricante ($VueloFabricante){
+function Fabricante ($select,$VueloFabricante){
 
-foreach ($VueloFabricante as  $fabricantito) {
+foreach ($VueloFabricante as  $fabricantito){
+    $Fabricante=$fabricantito["Fabricante"];
+    $select=$fabricantito["Vuelo"];
+   
+    echo "El fabricnte del avion es:".$Fabricante;
     
-$Fabricante=$fabricantito["Fabricante"];
-
-$vuelo=$fabricantito["Vuelo"];
-if ($vuelo==$texto){
-echo "El fabricante de este avion es:".$Fabricante;
 }
-
-
+    
 }
-
 
 
 ?>
