@@ -13,20 +13,53 @@ foreach ($VueloFabricante as  $fabricantito =>$info){
 
     foreach ($info as $infosito =>$infu ) {
         
-      if ($fabricantito=$infu) {
+      if ($fabricantito=="Airbus") {
           
         
        
        }
         
+      if ($fabricantito=='Borering') {
         
-        
-        
+      }  
 
-    
     }
     
 }
-echo  "El fabricate del avion es:".$infu.'<br>'; 
+echo "El fabricante del avion:".$infu."<br>";
+
+
+foreach ($vueloDestino as $ciudad => $ciudadito) {
+
+  foreach ($ciudadito as $ciudadela =>$palacete ) {
+        
+    if ($fabricantito=="Airbus") {
+        
+      
+     
+     }
+      
+    if ($fabricantito=='Borering') {
+      
+    }  
+
+  }
+  
+}
+echo "El fabricante del avion:".$palacete;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ?>
