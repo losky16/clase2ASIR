@@ -13,9 +13,10 @@ foreach ($VueloFabricante as  $fabricantito =>$info){
 
     foreach ($info as $infosito =>$infu ) {
         
-      
-           
-        echo  "El fabricate del avion es:".$infu.'<br>';
+      if ($fabricantito=$infu) {
+          
+        
+       
        }
         
         
@@ -24,8 +25,8 @@ foreach ($VueloFabricante as  $fabricantito =>$info){
 
     
     }
-
-
-
+    
+}
+echo  "El fabricate del avion es:".$infu.'<br>'; 
 
 ?>
