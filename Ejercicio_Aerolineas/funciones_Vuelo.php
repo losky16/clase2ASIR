@@ -33,16 +33,7 @@ foreach ($vueloDestino as $ciudad => $ciudadito) {
 
   foreach ($ciudadito as $ciudadela =>$palacete ) {
         
-    if ($fabricantito=="Airbus") {
-        
-      
-     
-     }
-      
-    if ($fabricantito=='Borering') {
-      
-    }  
-
+    
   }
   
 }
