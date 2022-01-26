@@ -5,7 +5,7 @@
 
 include "Arrays.php";
 
-
+#primeras funciones del ejercicios
 
 //VueloFabricante
 foreach ($VueloFabricante as  $fabricantito =>$info){
@@ -49,6 +49,23 @@ foreach ($VueloDuracionViaje as $viaje => $viajecito) {
   
 }
 echo "Minutos del vuelo son:".$viajete."<br>";
+
+//media de pasajeros
+
+$contador=0;
+$totalpasajeros=0;
+
+foreach ($VueloNumeroPasajeros as $pasajerito => $pasajeritito) {
+
+  foreach ($pasajeritito as $pasajetitito =>$pasarajete ) {
+        
+    
+  }
+  
+}
+echo "Mmedia de pasajeros es:".$pasarajete."<br>";
+
+#segunda funciones del ejercicio
 
 
 
