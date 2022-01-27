@@ -10,11 +10,12 @@ include "Arrays.php";
 //VueloFabricante
 
  //function Fabricante($select,$VueloFabricante){
+  
 foreach ($VueloFabricante as  $fabricantito =>$info){
     
 
     foreach ($info as $infosito =>$infu ) {
-        /* Posible solucion pero nose porque no muestra sin embargo tal como lo tengo me muestra algo
+        /* Posible solucion pero nose porque no  se muestra, sin embargo tal como lo tengo me muestra algo
       if ($fabricantito=="Airbus") {
           echo $fabricantito
         
