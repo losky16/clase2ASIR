@@ -9,7 +9,7 @@ include "Arrays.php";
 
 //VueloFabricante
 
- function Fabricante($VueloFabricante){
+ function Fabricante($select,$VueloFabricante){
 foreach ($VueloFabricante as  $fabricantito =>$info){
     
 
