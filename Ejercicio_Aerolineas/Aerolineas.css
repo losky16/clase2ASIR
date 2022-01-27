@@ -7,9 +7,11 @@ h1{width: 100%;
   
   
   body{
+    background-position: center center;
     background-color: lightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image:url(https://travel1tours.com/wp-content/uploads/2019/07/aerolineas-en-peru-768x480.jpg)
+    
   }
 
   
@@ -18,12 +20,12 @@ h1{width: 100%;
   /* MENU */
 .barraMenu {
   float: left;
-  width: 30%;
+  width: 20%;
 }
 
 .menu, .menuEspecialidades {
     float: left;
-    background-color: #00b2a9;
+    background-color: #c5dad8;
     width: 100%;
 }
   
@@ -45,7 +47,6 @@ h1{width: 100%;
   color: black;
   font-size: 20px;
 }
-
 
 
 
