@@ -71,6 +71,8 @@ echo "Media de pasajeros es:".$pasarajete."<br>";
 #Segunda funciones del ejercicio
 //Media de horas voladas de todos los vuelos.
 
+//No entiendo porque en este ejercicio me dice que  no esta definida  "Nombre" como "Tiempo",
+
 $totalpasajeros=0;
 $num=0;
 foreach ($VueloDuracionViaje as $viajecitos) {
