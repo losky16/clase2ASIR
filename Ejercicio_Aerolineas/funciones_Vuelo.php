@@ -117,7 +117,7 @@ echo "El total de pasajeros de todos los vuelos es: ".$totalpasajeros."<br>";
 
 
 
-#
+#Estadística de Ciudades
 
 // El número totales de ciudades visitadas.
 
@@ -142,6 +142,10 @@ foreach ($vueloDestino as $ciudadita) {
 
 
 
+
+#Estadística del avión
+
+//Destinos del avión
 
 
 

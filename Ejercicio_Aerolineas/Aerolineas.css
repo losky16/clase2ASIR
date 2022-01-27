@@ -1,16 +1,54 @@
-h1 {
-    color: #6c2eb9;
-    font-weight: normal;
-    font-size: 40px;
-    font-family: Arial;
-    text-transform: uppercase;
+h1{width: 100%;
+  max-width: 400px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: auto;
+}
+  
+  
+  body{
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(https://travel1tours.com/wp-content/uploads/2019/07/aerolineas-en-peru-768x480.jpg)
+  }
+
+  
+
+  
+  /* MENU */
+.barraMenu {
+  float: left;
+  width: 30%;
 }
 
-h2 {
-    color: #443963;
-    font-weight: normal;
-    font-size: 30px;
-    font-family: Arial;
-    text-transform: lowercase;
-  }
+.menu, .menuEspecialidades {
+    float: left;
+    background-color: #00b2a9;
+    width: 100%;
+}
+  
+.menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menu ul li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: black;
+  font-size: 20px;
+}
+
+
+
+
+
+
   
