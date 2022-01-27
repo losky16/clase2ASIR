@@ -95,10 +95,16 @@ foreach($VueloNumeroPasajeros as $pasagenete){
   $todosjuntos=$pasagenete["Pasajeros"];
   $totalpasajeros=$todosjuntos+$totalpasajeros;
 }
-echo "El total de pasajeros de todos los vuelos es: ".$totalpasajeros;
+echo "El total de pasajeros de todos los vuelos es: ".$totalpasajeros."<br>";
 
-// numero de fabricante por vuelo
+// numero de aviones por fabricante
 
+foreach ($vueloDestino as $ciudadita) {
+  $vuelo=$ciudadita["Vuelo"];
+  $ciudad=$ciudadita["Ciudad"];
+   
+      echo "Las ultimas ciudades visitados por este avion fueron: ". $ciudad."<br>";
+  }
 
 
 
