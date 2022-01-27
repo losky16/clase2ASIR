@@ -9,27 +9,27 @@ include "Arrays.php";
 
 //VueloFabricante
 
- function Fabricante($select,$VueloFabricante){
+ //function Fabricante($select,$VueloFabricante){
 foreach ($VueloFabricante as  $fabricantito =>$info){
     
 
     foreach ($info as $infosito =>$infu ) {
-        /* Posible solucion 
+        /* Posible solucion pero nose porque no muestra sin embargo tal como lo tengo me muestra algo
       if ($fabricantito=="Airbus") {
-          
+          echo $fabricantito
         
        
        }
         
       if ($fabricantito=='Borering') {
-        
+        echo $fabricantito
       }  
       */
     }
     
 }
 echo "El fabricante del avion:".$infu."<br>";
- }
+ //}
 //VueloDestino
 foreach ($vueloDestino as $ciudad => $ciudadito) {
 
@@ -41,7 +41,7 @@ foreach ($vueloDestino as $ciudad => $ciudadito) {
 }
 echo "Ultimo destino es:".$palacete."<br>";
 
-//Veulo
+//Minutos del vuelo
 foreach ($VueloDuracionViaje as $viaje => $viajecito) {
 
   foreach ($viajecito as $viajectito =>$viajete ) {
