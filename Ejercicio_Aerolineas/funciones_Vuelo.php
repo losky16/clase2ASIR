@@ -7,7 +7,7 @@ include "Arrays.php";
 
 #primeras funciones del ejercicios / nose porque al ponerle las funciones no me muestra el resultado,
 
-//VueloFabricante
+//Fabricante
 
  //function Fabricante($select,$VueloFabricante){
   
@@ -30,8 +30,8 @@ foreach ($VueloFabricante as  $fabricantito =>$info){
     
 }
 echo "El fabricante del avion:".$infu."<br>";
- //}
-//VueloDestino
+ 
+//Últimos destinos
 foreach ($vueloDestino as $ciudad => $ciudadito) {
 
   foreach ($ciudadito as $ciudadela =>$palacete ) {
@@ -68,26 +68,26 @@ foreach ($VueloNumeroPasajeros as $pasajerito => $pasajeritito) {
 }
 echo "Media de pasajeros es:".$pasarajete."<br>";
 
-#segunda funciones del ejercicio
-//media de horas
+#Segunda funciones del ejercicio
+//Media de horas voladas de todos los vuelos.
 
 $totalpasajeros=0;
-$contador=0;
+$num=0;
 foreach ($VueloDuracionViaje as $viajecitos) {
     
   $vuelo=$viajecitos["Nombre"];
     $pasajeros=$viajecitos["Tiempo"];
        $totalpasajeros=$totalpasajeros+$pasajeros;
-       $contador++;
+       $num++;
 }
-$totalpasajeros=$totalpasajeros/$contador;
+$totalpasajeros=$totalpasajeros/$num;
 //aqui estamos conviertiendo minutos en horas
 $totalpasajeros=$totalpasajeros/60;
 echo "La media de horas de este vuelo es: ".$totalpasajeros."<br>";
 
 
 
-//total de pasajeros
+//Número total de pasajeros de todos los vuelos.
 $totalpasajeros=0;
 
 
@@ -97,7 +97,27 @@ foreach($VueloNumeroPasajeros as $pasagenete){
 }
 echo "El total de pasajeros de todos los vuelos es: ".$totalpasajeros."<br>";
 
-// numero de aviones por fabricante
+//Número de aviones por fabricante.
+
+
+
+// Destino con más conexiones.
+
+
+// Destino con menos conexiones.
+
+
+
+
+
+
+
+
+
+
+#
+
+// El número totales de ciudades visitadas.
 
 foreach ($vueloDestino as $ciudadita) {
   $vuelo=$ciudadita["Vuelo"];
@@ -107,6 +127,14 @@ foreach ($vueloDestino as $ciudadita) {
   }
 
 
+//Las veces que se ha ido a una a una determinada ciudad.
+
+
+//Cual es la ciudad más visitada.
+
+
+
+//Cuales son las ciudades menos visitadas.
 
   
 
