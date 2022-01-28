@@ -55,8 +55,7 @@ echo "Minutos del vuelo son:".$viajete."<br>";
 
 //media de pasajeros
 
-$contador=0;
-$totalpasajeros=0;
+
 
 foreach ($VueloNumeroPasajeros as $pasajerito => $pasajeritito) {
 
@@ -71,7 +70,7 @@ echo "Media de pasajeros es:".$pasarajete."<br>";
 #Segunda funciones del ejercicio
 //Media de horas voladas de todos los vuelos.
 
-//No entiendo porque en este ejercicio me dice que  no esta definida  "Nombre" como "Tiempo",
+//No entiendo porque en este ejercicio me dice que  no esta definida  "Nombre" y "Tiempo", en otro apartado si
 
 $totalpasajeros=0;
 $num=0;
@@ -151,6 +150,34 @@ foreach ($vueloDestino as $ciudadita) {
 
 
 
+
+// Fabricante del avión.
+
+
+
+
+
+
+// Minutos totales volados
+
+
+
+
+
+// Media de horas voladas
+
+
+
+
+
+// Media de pasajeros
+
+
+
+
+
+
+//Pasajeros totales
 
 
 ?>
