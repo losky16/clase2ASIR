@@ -9,7 +9,7 @@ $select=$_POST["operador"];
 Fabricante($VueloFabricante,$select);
 Destino($vueloDestino,$select);
 DuracionViaje($VueloDuracionViaje,select);
-MediaPasajeros($VueloNumeroPasajeros,$selectselect);
+MediaPasajeros($VueloNumeroPasajeros,$select);
 
 
 
