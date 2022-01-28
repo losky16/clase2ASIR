@@ -1,7 +1,7 @@
 <?php
-
+//Alguno de las foreach  del ejercicio Estadística del aeropuerto y Estadística de Ciudades me he fijado en el codigo de algunos compañeros ya me ha resultado dificil de sacarlos por mi mismo,
 #Aqui se mostrara las funciones necesaria en el ejercicio de Aerolineas Losquiños
-
+//
 
 include "Arrays.php";
 
