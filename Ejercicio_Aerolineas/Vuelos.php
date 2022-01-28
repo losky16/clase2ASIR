@@ -6,10 +6,10 @@ include ("funciones_Vuelo.php");
 $select=$_POST["operador"];
 
 
-Fabricante($VueloFabricante);
-Destino($vueloDestino);
-DuracionViaje($VueloDuracionViaje);
-MediaPasajeros($VueloNumeroPasajeros);
+Fabricante($VueloFabricante,$select);
+Destino($vueloDestino,$select);
+DuracionViaje($VueloDuracionViaje,select);
+MediaPasajeros($VueloNumeroPasajeros,$selectselect);
 
 
 
