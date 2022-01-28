@@ -43,3 +43,4 @@ switch ($Fabricante) {
         break;
 }
 */
+?>
