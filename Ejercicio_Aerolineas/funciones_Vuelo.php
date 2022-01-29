@@ -1,5 +1,5 @@
 <?php
-//Alguno de las foreach  del ejercicio Estadística del aeropuerto y Estadística de Ciudades me he fijado en el codigo de algunos compañeros ya me ha resultado dificil de sacarlos por mi mismo,
+//Alguno de las foreach  del ejercicio Estadística del aeropuerto y Estadística de Ciudades me he fijado en el codigo (github) de algunos compañeros(naho alonso y maria) para tenerlo como referencia ya que me ha resultado dificil de sacarlos por mi mismo,
 #Aqui se mostrara las funciones necesaria en el ejercicio de Aerolineas Losquiños
 //
 
@@ -32,6 +32,7 @@ foreach ($VueloFabricante as  $fabricantito =>$info){
 echo "El fabricante del avion:".$infu."<br>";
  
 //Últimos destinos
+//function Destino($vueloDestino,$select){
 foreach ($vueloDestino as $ciudad => $ciudadito) {
 
   foreach ($ciudadito as $ciudadela =>$palacete ) {
@@ -41,8 +42,9 @@ foreach ($vueloDestino as $ciudad => $ciudadito) {
   
 }
 echo "Ultimo destino es:".$palacete."<br>";
-
+//}
 //Minutos del vuelo
+ // function DuracionViaje ($VueloDuracionViaje,select){}
 foreach ($VueloDuracionViaje as $viaje => $viajecito) {
 
   foreach ($viajecito as $viajectito =>$viajete ) {
@@ -52,10 +54,10 @@ foreach ($VueloDuracionViaje as $viaje => $viajecito) {
   
 }
 echo "Minutos del vuelo son:".$viajete."<br>";
-
+//}
 //media de pasajeros
 
-
+// function MediaPasajeros($VueloNumeroPasajeros,$select){}
 
 foreach ($VueloNumeroPasajeros as $pasajerito => $pasajeritito) {
 
@@ -66,8 +68,14 @@ foreach ($VueloNumeroPasajeros as $pasajerito => $pasajeritito) {
   
 }
 echo "Media de pasajeros es:".$pasarajete."<br>";
+//}
 
-#Segunda funciones del ejercicio
+
+
+#SEGUNDA FUNCIONES DEL EJERCICIO
+
+//Estadística del aeropuerto
+
 //Media de horas voladas de todos los vuelos.
 
 //No entiendo porque en este ejercicio me dice que  no esta definida  "Nombre" y "Tiempo", en otro apartado si
