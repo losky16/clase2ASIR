@@ -49,18 +49,18 @@ $vueloFabricante=array(
 
 $VueloDuracionViaje=array(
 
-    array("Nombre"=>"Vueling-AE12","Tiempo"=>"120 minutos"),
-    array("Nombre"=>"Volotea-EA21","Tiempo"=>"100 minutos"),
-    array("Nombre"=>"Iberia-WE44","Tiempo"=>"340 minutos"),
-    array("Nombre"=>"Ryanair-EW44","Tiempo"=>"45 minutos"),
-    array("Nombre"=>"Vueling-ZK87","Tiempo"=>"600 minutos"),
-    array("Nombre"=>"Volotea-UA21","Tiempo"=>"65 minutos"),
-    array("Tiempo"=>"Iberia-WH44","Tiempo"=>"90 minutos"),
-    array("Nomnre"=>"Ryanair-ELOO","Tiempo"=>"50 minutos"),
-    array("Nomnre"=>"Vueling-AE12","Tiempo"=>"115 minutos"),
-    array("Nombre"=>"Volotea-EA21","Tiempo"=>"100 minutos"),
-    array("Nombre"=>"Iberia-WE44","Tiempo"=>"85 minutos"),
-    array("Nombre"=>"Ryanair-EW44","Tiempo"=>"360 minutos")
+    array("Nombre"=>"Vueling-AE12","Tiempo"=>"120"),
+    array("Nombre"=>"Volotea-EA21","Tiempo"=>"100"),
+    array("Nombre"=>"Iberia-WE44","Tiempo"=>"340"),
+    array("Nombre"=>"Ryanair-EW44","Tiempo"=>"45"),
+    array("Nombre"=>"Vueling-ZK87","Tiempo"=>"600"),
+    array("Nombre"=>"Volotea-UA21","Tiempo"=>"65"),
+    array("Nombre"=>"Iberia-WH44","Tiempo"=>"90"),
+    array("Nombre"=>"Ryanair-ELOO","Tiempo"=>"50"),
+    array("Nombre"=>"Vueling-AE12","Tiempo"=>"115"),
+    array("Nombre"=>"Volotea-EA21","Tiempo"=>"100"),
+    array("Nombre"=>"Iberia-WE44","Tiempo"=>"85"),
+    array("Nombre"=>"Ryanair-EW44","Tiempo"=>"360")
 
 
 );

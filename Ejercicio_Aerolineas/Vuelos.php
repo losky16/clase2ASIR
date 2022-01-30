@@ -17,8 +17,12 @@ function totalMinutosVuelos($VueloDuracionViaje,$fabricante){
         echo $fabricante;
 
         foreach ($VueloDuracionViaje as $DuracionViajecito) {
-            
-                echo $DuracionViajecito["Tiempo"];
+                
+                
+                if ($fabricante==$DuracionViajecito["Nombre"]) {
+                    echo "<br>";
+                    echo $DuracionViajecito["Tiempo"];
+                }
 
 
 

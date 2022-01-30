@@ -54,14 +54,24 @@ foreach ($VueloDuracionViaje as $viaje => $viajecito) {
 }
 echo "Minutos del vuelo son:".$viajete."<br>";
 
-
-function mediaPasajeros($VueloNumeroPasajeros,$fabricante){      
-  $totalPasajeros=0;
-  $totalVuelos=0;
+/**
+ * funcion que clcula la media de pasajeros
+ * @param VueloNumeroPasajeros contiene el array
+ * @param fabriante compañia que a selecionado el usuario
+ * 
+ */
+function mediaPasajeros($VueloNumeroPasajeros,$fabricante){
+  //declaramos las variables a usar      
+  $totalPasajeros=0; // almacena el total de pasajeros.
+  $totalVuelos=0; // almacena el total de vuelos.
+  // Recorremos el array
+  
   foreach ($VueloNumeroPasajeros as $pasajerito) {
-
+    // Comprobamos que el valor del vuelo sea el selecionado por el usuario
     if ($pasajerito["Vuelo"]==$fabricante) {
+      //el total pasajeros se vaya sumado  todo los pasajeros
       $totalPasajeros= $totalPasajeros + $pasajerito["Pasajeros"];
+      //el total de vuelo se va incrementado por cada vuelo encontrado
       $totalVuelos=$totalVuelos+1;
     }
   }
@@ -91,7 +101,7 @@ foreach ($VueloDuracionViaje as $viajecitos) {
        $num++;
 }
 $totalpasajeros=$totalpasajeros/$num;
-//aqui estamos conviertiendo minutos en horas
+//aqui estamos conviertiendo en horas
 $totalpasajeros=$totalpasajeros/60;
 echo "La media de horas de este vuelo es: ".$totalpasajeros."<br>";
 
@@ -171,7 +181,7 @@ foreach ($vueloDestino as $ciudadita) {
 
 
 
-// Minutos totales volados
+// totales volados
 
 
 
