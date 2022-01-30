@@ -6,39 +6,54 @@ include '.\funciones_Vuelo.php';
 
 $fabricante = $_POST["operador"];
 
-
+// Aqui se inicializa las funciones
 buscarFabricante($vueloFabricante, $fabricante);
 mediaPasajeros($VueloNumeroPasajeros,$fabricante);
 totalMinutosVuelos($VueloDuracionViaje,$fabricante);
-
+ultimosDestinos($vueloDestino,$fabricante);
 /**
- * funcion que calcula el total de minutos de  vuelo de una compañia
- * @param VueloDuracionViaje contiene el array con los datos
- * @param fabricante  compañia que a selecionado el usuario
+ * Creamos la funcion ultimosDestinos para mostranos los ultimos destinos de los vuelos de las compañias
+ * @param vueloDestino contiene el array 
+ * @param fabricante contiene el vuelo selecionado por el usuario 
  */
-function totalMinutosVuelos($VueloDuracionViaje,$fabricante){
-    // declaramos las variables a usar
-    $totalTiempo=0; // almacena el total del tiempo de vuelo
+function ultimosDestinos($vueloDestino,$fabricante){
+    //declaraomos la variables a usar.
+    $textoCiudades=""; // esa variable almacena un string(texto) con totos los destinos de la compañia
+
+    //me hace falta reecorrer el array para llegar a vuelo
+
+    foreach ($vueloDestino as $destinito ) {
+        
+        
+        //necesito saber los ultims destino del vuelo selecionado
+        if ($destinito["Vuelo"]==$fabricante) {
+           
+            
+            //necesito comprobar si texto ciudades esta vacio para no mostrar la ,.
+            
+            if ($textoCiudades=="") {
+                $textoCiudades=$destinito["Ciudad"];
+            
+            }
+            //si el texto no esta vacio concatenamos con la ,
+            else {
+                $textoCiudades=$textoCiudades. ",".$destinito["Ciudad"];
+                
+            }
+        }   
+
+    }       
     echo "<br>";
-    
-    //recorremos el array VueloDuracionViaje
-    foreach ($VueloDuracionViaje as $DuracionViajecito) {
-        //comprobamos que el nombre del vuelo sea el selecionado por el usuaario
-        if ($fabricante==$DuracionViajecito["Nombre"]) {
-            
-            //acumulamos el tiempo de vuelo en la variable
-            $totalTiempo= $totalTiempo + $DuracionViajecito["Tiempo"];
-            
-        }
-    }
-    echo "Minutos totales de vuelo: ". $totalTiempo ." minutos";
-}           
+    echo "Últimos destinos: " .$textoCiudades;
 
 
 
 
 
 
+
+
+}
 
 
 

@@ -41,18 +41,34 @@ foreach ($vueloDestino as $ciudad => $ciudadito) {
   
 }
 echo "Ultimo destino es:".$palacete."<br>";
-//}
-//Minutos del vuelo
- // function DuracionViaje ($VueloDuracionViaje,select){}
-foreach ($VueloDuracionViaje as $viaje => $viajecito) {
-
-  foreach ($viajecito as $viajectito =>$viajete ) {
-        
-    
-  }
+/**
+ * funcion que calcula el total de minutos de  vuelo de una compañia
+ * @param VueloDuracionViaje contiene el array con los datos
+ * @param fabricante  compañia que a selecionado el usuario
+ */
+function totalMinutosVuelos($VueloDuracionViaje,$fabricante){
+  // declaramos las variables a usar
+  $totalTiempo=0; // almacena el total del tiempo de vuelo
+  echo "<br>";
   
-}
-echo "Minutos del vuelo son:".$viajete."<br>";
+  //recorremos el array VueloDuracionViaje
+  foreach ($VueloDuracionViaje as $DuracionViajecito) {
+      //comprobamos que el nombre del vuelo sea el selecionado por el usuaario
+      if ($fabricante==$DuracionViajecito["Nombre"]) {
+          
+          //acumulamos el tiempo de vuelo en la variable
+          $totalTiempo= $totalTiempo + $DuracionViajecito["Tiempo"];
+          
+      }
+  }
+  echo "Minutos totales de vuelo: ". $totalTiempo ." minutos";
+}           
+
+
+
+
+
+
 
 /**
  * funcion que clcula la media de pasajeros
