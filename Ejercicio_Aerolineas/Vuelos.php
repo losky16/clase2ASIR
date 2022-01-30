@@ -9,8 +9,32 @@ $fabricante = $_POST["operador"];
 
 buscarFabricante($vueloFabricante, $fabricante);
 mediaPasajeros($VueloNumeroPasajeros,$fabricante);
+totalMinutosVuelos($VueloDuracionViaje,$fabricante);
 
 
+function totalMinutosVuelos($VueloDuracionViaje,$fabricante){
+        echo "<br>";
+        echo $fabricante;
+
+        foreach ($VueloDuracionViaje as $DuracionViajecito) {
+            
+                echo $DuracionViajecito["Tiempo"];
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+}
 
 
 
