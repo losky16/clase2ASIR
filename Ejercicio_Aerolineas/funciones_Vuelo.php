@@ -127,7 +127,7 @@ echo "El total de pasajeros de todos los vuelos es: ".$totalpasajeros."<br>";
 #Estadística de Ciudades
 
 // El número totales de ciudades visitadas.
-
+// function ciudades($vueloDestino){
 foreach ($vueloDestino as $ciudadita) {
   $vuelo=$ciudadita["Vuelo"];
   $ciudad=$ciudadita["Ciudad"];
@@ -135,9 +135,13 @@ foreach ($vueloDestino as $ciudadita) {
       echo "Las ultimas ciudades visitados por este avion fueron: ". $ciudad."<br>";
   }
 
-
+//
 //Las veces que se ha ido a una a una determinada ciudad.
 
+  // function Tciudades($vueloDestino)
+  
+
+//}
 
 //Cual es la ciudad más visitada.
 
@@ -186,6 +190,18 @@ foreach ($vueloDestino as $ciudadita) {
 
 
 //Pasajeros totales
+$totalpasajeros=0;
+foreach($VueloNumeroPasajeros as $pasagenete){
 
 
-?>
+  foreach ($pasagenete as $pasagentuza => $pasamuerte) {
+    
+$totalpasajeros=$pasagentuza["Pasajeros"];
+$totalpasajeros
+ echo "En total son".$totalpasajeros;
+
+
+}
+}
+ 
+  
