@@ -85,7 +85,7 @@ $VueloNumeroPasajeros=array(
     array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"87"),
     array("Vuelo"=>"Volotea-UA21","Pasajeros"=>"90"),
     array("Vuelo"=>"Iberia-WH44","Pasajeros"=>"84"),
-    array("Vuelo"=>"Ryanair-EL00","Pasajeros"=>"67"),
+    array("Vuelo"=>"Ryanair-ELOO","Pasajeros"=>"67"),
     array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"86"),
     array("Vuelo"=>"Volotea -EA21 ","Pasajeros"=>"66"),
     array("Vuelo"=>"Iberia -WE44","Pasajeros"=>"40"),

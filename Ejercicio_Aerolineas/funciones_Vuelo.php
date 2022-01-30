@@ -47,21 +47,23 @@ foreach ($VueloDuracionViaje as $viaje => $viajecito) {
   
 }
 echo "Minutos del vuelo son:".$viajete."<br>";
-//}
-//media de pasajeros
 
-// function MediaPasajeros($VueloNumeroPasajeros,$select){}
 
-foreach ($VueloNumeroPasajeros as $pasajerito => $pasajeritito) {
+function mediaPasajeros($VueloNumeroPasajeros,$fabricante){      
+  $totalPasajeros=0;
+  $totalVuelos=0;
+  foreach ($VueloNumeroPasajeros as $pasajerito) {
 
-  foreach ($pasajeritito as $pasajetitito =>$pasarajete ) {
-        
-    
+    if ($pasajerito["Vuelo"]==$fabricante) {
+      $totalPasajeros= $totalPasajeros + $pasajerito["Pasajeros"];
+      $totalVuelos=$totalVuelos+1;
+    }
   }
-  
+
+  echo "<br>";
+  echo " Media Pasajeros: ".$totalPasajeros/$totalVuelos;
+
 }
-echo "Media de pasajeros es:".$pasarajete."<br>";
-//}
 
 
 
