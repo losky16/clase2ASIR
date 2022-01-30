@@ -3,33 +3,26 @@
 #Aqui se mostrara las funciones necesaria en el ejercicio de Aerolineas Losquiños
 //
 
-include "Arrays.php";
+include ".\arrays.php";
 
 #primeras funciones del ejercicios / nose porque al ponerle las funciones no me muestra el resultado,
 
 //Fabricante
 
- //function Fabricante($select,$VueloFabricante){
-  
-foreach ($VueloFabricante as  $fabricantito =>$info){
-    
-
-    foreach ($info as $infosito =>$infu ) {
-        /* Posible solucion pero nose porque no  se muestra, sin embargo tal como lo tengo me muestra algo
-      if ($fabricantito=="Airbus") {
-          echo $fabricantito
-        
-       
-       }
-        
-      if ($fabricantito=='Borering') {
-        echo $fabricantito
-      }  
-      */
-    }
-    
+function buscarFabricante($vueloFabricante, $fabricante){
+  echo "Compañia ".$fabricante.":";
+ 
+  foreach ($vueloFabricante as $fabricantito) {
+      
+      
+      if ($fabricantito["Vuelo"]==$fabricante)  {
+          echo "<br>";
+          $resultado=$fabricantito["Fabricante"];
+          echo "Fabricante ".$resultado;        }
+  }
+      
 }
-echo "El fabricante del avion:".$infu."<br>";
+
  
 //Últimos destinos
 //function Destino($vueloDestino,$select){
@@ -190,18 +183,6 @@ foreach ($vueloDestino as $ciudadita) {
 
 
 //Pasajeros totales
-$totalpasajeros=0;
-foreach($VueloNumeroPasajeros as $pasagenete){
 
-
-  foreach ($pasagenete as $pasagentuza => $pasamuerte) {
-    
-$totalpasajeros=$pasagentuza["Pasajeros"];
-$totalpasajeros
- echo "En total son".$totalpasajeros;
-
-
-}
-}
  
   

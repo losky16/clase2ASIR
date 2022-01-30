@@ -18,21 +18,17 @@ $vueloDestino=array(
 
 );
 
-echo "<br/>";
-echo "<br/>";
-echo "<br/>";
-echo "<br/>";
 
 
-$VueloFabricante=array(
+$vueloFabricante=array(
 
     array("Vuelo"=>"Vueling-AE12","Fabricante"=>"Boering"),
     array("Vuelo"=>"Volotea-EA21","Fabricante"=>"Airbus"),
     array("Vuelo"=>"Iberia-WE44","Fabricante"=>"Airbus"),
-    array("Vuelo"=>"Ryanair-EW44","FAbricnate"=>"Boering"),
-    array("Vuelo"=>"Vueling-ZK87","Fabricnate"=>"Airbus"),
-    array("Vuelo"=>"Volotea-UA21","Fabricnate"=>"Boering"),
-    array("Veulo"=>"Iberia-WH44","FAbricnate"=>"Boering"),
+    array("Vuelo"=>"Ryanair-EW44","Fabricante"=>"Boering"),
+    array("Vuelo"=>"Vueling-ZK87","Fabricante"=>"Airbus"),
+    array("Vuelo"=>"Volotea-UA21","Fabricante"=>"Boering"),
+    array("Vuelo"=>"Iberia-WH44","Fabricante"=>"Boering"),
     array("Vuelo"=>"Ryanair-ELOO","Fabricante"=>"Airbus")
     
 
@@ -43,10 +39,6 @@ $VueloFabricante=array(
 
 );
 
-
-echo "<br/>";
-echo "<br/>";
-echo "<br/>";
 
 
 
@@ -73,40 +65,36 @@ $VueloDuracionViaje=array(
 
 );
 
-echo "<br/>";
-echo "<br/>";
-echo "<br/>";
 
 
-
+// he quitado el string persona porque es imposible hacer un calculo numerico con texto
 $VueloNumeroPasajeros=array(
 
-    array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"90 personas"),
-    array("Vuelo"=>"Volotea-EA21","Pasajeros"=>"75 personas"),
-    array("Vuelo"=>"Iberia-WE44","Pasajeros"=>"100 personas"),
-    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"60 personas"),
-    array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"77 personas"),
-    array("Vuelo"=>"Volotea-UA21","Pasajeros"=>"93 personas"),
-    array("Vuelo"=>"Iberia-WH44","Pasajeros"=>"86 personas"),
-    array("Vuelo"=>"Ryanair-ELOO","Pasajeros"=>"75 personas"),
-    array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"87 personas"),
-    array("Vuelo"=>"Volotea-EA21","Pasajeros"=>"97 personas"),
-    array("Vuelo"=>"beria-WE44","Pasajeros"=>"81 personas"),
-    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"75 personas"),
-    array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"87 personas"),
-    array("Vuelo"=>"Volotea-UA21","Pasajeros"=>"90 personas"),
-    array("Vuelo"=>"Iberia-WH44","Pasajeros"=>"84 personas"),
-    array("Vuelo"=>"Ryanair-EL00","Pasajeros"=>"67 personas"),
-    array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"86 personas"),
-    array("Vuelo"=>"Volotea -EA21 ","Pasajeros"=>"66 personas"),
-    array("Vuelo"=>"Iberia -WE44","Pasajeros"=>"40 personas"),
-    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"77 personas"),
-    array("Vuelo"=>"Vueling -ZK87","Pasajeros"=>"82 personas"),
+    array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"90"),
+    array("Vuelo"=>"Volotea-EA21","Pasajeros"=>"75"),
+    array("Vuelo"=>"Iberia-WE44","Pasajeros"=>"100"),
+    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"60"),
+    array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"77"),
+    array("Vuelo"=>"Volotea-UA21","Pasajeros"=>"93"),
+    array("Vuelo"=>"Iberia-WH44","Pasajeros"=>"86"),
+    array("Vuelo"=>"Ryanair-ELOO","Pasajeros"=>"75"),
+    array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"87"),
+    array("Vuelo"=>"Volotea-EA21","Pasajeros"=>"97"),
+    array("Vuelo"=>"beria-WE44","Pasajeros"=>"81"),
+    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"75"),
+    array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"87"),
+    array("Vuelo"=>"Volotea-UA21","Pasajeros"=>"90"),
+    array("Vuelo"=>"Iberia-WH44","Pasajeros"=>"84"),
+    array("Vuelo"=>"Ryanair-EL00","Pasajeros"=>"67"),
+    array("Vuelo"=>"Vueling-AE12","Pasajeros"=>"86"),
+    array("Vuelo"=>"Volotea -EA21 ","Pasajeros"=>"66"),
+    array("Vuelo"=>"Iberia -WE44","Pasajeros"=>"40"),
+    array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"77"),
+    array("Vuelo"=>"Vueling -ZK87","Pasajeros"=>"82"),
 );
 
 
 
-echo "<br/>";
 
 
 

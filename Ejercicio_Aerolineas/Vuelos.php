@@ -1,46 +1,45 @@
 <?php
-include ("Arrays.php");
-include ("funciones_Vuelo.php");
+include '.\arrays.php';
+include '.\funciones_Vuelo.php';
+
 #RECOGIDA DE TADOS
 
-$select=$_POST["operador"];
+$fabricante = $_POST["operador"];
 
 
-Fabricante($VueloFabricante,$select);
-Destino($vueloDestino,$select);
-DuracionViaje($VueloDuracionViaje,select);
-MediaPasajeros($VueloNumeroPasajeros,$select);
+buscarFabricante($vueloFabricante, $fabricante);
+mediaPasajeros($VueloNumeroPasajeros,$fabricante);
+function mediaPasajeros($VueloNumeroPasajeros,$fabricante){
+            echo $fabricante;
+
+        foreach ($VueloNumeroPasajeros as $pasajerito) {
+            
+           
+
+            if ($pasajerito["Vuelo"]==$fabricante) {
+            echo "<br>";
+            echo $pasajerito["Pasajeros"];
+            
+            }
+        }
 
 
 
 
 
-/*
-Esto por donde empece a meterle mano, pero se me pudrio la mano
-switch ($Fabricante) {
-    case 'Vueling-AE12':
-        echo "Boering";
-        break;
-    
-    case 'Volotea-EA21':
-        echo"Airbus";
-        break;
-    case 'Iberia-WE44':
-        echo "Airbus";
-    case 'Ryanair-EW44':
-        echo "Boering";
-    case 'Vueling-ZK87':
-        echo "Airbus";
-    case 'Volotea-UA21':
-        echo "Boering";
-    case 'Iberia-WH44':
-        echo "Boering";
-    case 'Ryanair-ELOO':
-        echo "Airbus";
-    
-    default:
-        
-        break;
 }
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
