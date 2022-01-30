@@ -65,8 +65,7 @@ function ultimosDestinos($vueloDestino,$fabricante){
   }       
   echo "<br>";
   echo "Últimos destinos: " .$textoCiudades;
-
-
+}
 /**
  * funcion que calcula el total de minutos de  vuelo de una compañia
  * @param VueloDuracionViaje contiene el array con los datos
