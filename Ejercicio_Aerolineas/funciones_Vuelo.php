@@ -9,18 +9,24 @@ include ".\arrays.php";
 
 //Fabricante
 
+/**
+ * Función que obtiene la información del fabricante de un vuelo.
+ * @param vueloFabricante Contiene el array con la información.
+ * @param fabricante Contiene el nombre del vuelo seleccionado por el usuario.
+ */
 function buscarFabricante($vueloFabricante, $fabricante){
   echo "Compañia ".$fabricante.":";
  
+  //Recorremos los valores del array.
   foreach ($vueloFabricante as $fabricantito) {
-      
-      
+      //Comprobamos que el valor "Vuelo" sea el seleccionado por el usuario.
       if ($fabricantito["Vuelo"]==$fabricante)  {
           echo "<br>";
-          $resultado=$fabricantito["Fabricante"];
-          echo "Fabricante ".$resultado;        }
+
+          //Mostramos el resultado.
+          echo "Fabricante ".$fabricantito["Fabricante"];       
+      }
   }
-      
 }
 
  
