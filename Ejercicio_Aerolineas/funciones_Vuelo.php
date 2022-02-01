@@ -190,11 +190,7 @@ foreach ($vueloDestino as $ciudadita) {
 //
 //Las veces que se ha ido a una a una determinada ciudad.
 
-  // function Tciudades($vueloDestino)
   
-
-//}
-
 //Cual es la ciudad más visitada.
 
 
@@ -236,7 +232,29 @@ foreach ($vueloDestino as $destinito ) {
 
 // Fabricante del avión.
 
+/**
+ * Creamos la funcion fabricanteAvion para mostras el febricnate de cada avion
+ * @param $vueloDestino nos introduce dentro del array
+ * @param 
+ */
+function fabricanteAvion($vueloFabricante,$fabricante){
+  echo "<br>";
+  echo "Compañia ".$fabricante;
+  //recorremos el array
+  foreach ($vueloFabricante as $fabriAvion ) {
+       
+      //comprobamos que el valor del vuelo es el deseado por el usuario
+      if ($fabriAvion["Vuelo"]==$fabricante) {
+          echo "<br>";
+         
+          //mostramos el resultado
+          echo"El fabricante es: " .$fabriAvion["Fabricante"];
+      }
 
+      
+  }
+  
+}
 
 
 
