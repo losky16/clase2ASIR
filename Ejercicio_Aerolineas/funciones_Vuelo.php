@@ -213,8 +213,6 @@ foreach ($vueloDestino as $ciudadita) {
 
 
 
-
-
 // Fabricante del avión.
 
 
